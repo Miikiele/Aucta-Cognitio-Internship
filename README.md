@@ -9,6 +9,7 @@ across buckets and the various types of replication and fault domain policies ut
 in pools. In this complex, heterogeneous, and ever-changing scenario, it is challenging
 for a Ceph system administrator to individuate the best Ceph deployment to mitigate
 the risk of data loss a priori.
+
 Furthermore, it is difficult to know how sensitive the data is to the network or bucket
 failures. Equipping the administrator with a comprehensive view of which pools are
 affected by data loss is crucial to provide a data loss service-oriented perspective.
@@ -18,10 +19,13 @@ them with reactive and proactive tools to gain knowledge on the data loss probab
 of the pools, administrators can make informed decisions regarding the optimal Ceph
 deployment strategy before failures. This approach helps mitigate the risk of data loss
 in the pools.
+
 The study has developed functions for incremental data loss probability assessment
 and forecasting, which are integrated into a server component deployed within a Ceph
 cluster. REST API and RPC clients have also been implemented to interact with
 the server. The collective integration of these components forms a comprehensive
 Service-Related Data Loss Evaluation System.
 
+![alt text](image-1.png)
+![alt text](image-2.png)
 [READ Thesis.pdf for more]
